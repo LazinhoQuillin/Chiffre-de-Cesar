@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chiffre de César</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="page">
+      <h1>Chiffre de César</h1>
+
+      <input type="text" id="messageInput" value="Rendez-vous A Rome" />
+      
+      <div id="click">
+        <a href="#" class="buttonR" onclick="encrypt()"  onclick="play(musique)">
+          Chiffrer
+        </a>
+        
+        <a href="#" class="buttonV"   onclick="decrypt()" onclick="play(musique)" >  <!-- Question 6 --> 
+          Déchiffrer
+        </a>
+      </div>
+
+      <div id="result" >
+        Le résultat s'affichera ici.
+      </div>
+    </div>
+    <div>
+      <script src="script.js" ></script>
+    </div>
+  </body>
+</html>
